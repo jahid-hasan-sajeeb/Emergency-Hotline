@@ -11,6 +11,7 @@ document.querySelectorAll(".call-btn").forEach(Button =>
             money.innerText = currentBalance;
         } else {
             alert("Insufficient balance");
+            return;
         }
         updateHistory(serviceName, number);
     })
