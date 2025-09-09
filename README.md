@@ -33,12 +33,10 @@ parent.appendChild(newDiv);
  Event Bubbling means that when we create an event that happens on an element (like a click on a button), that event doesn’t just happen there and end. It "bubbles up" from the clicked element to its parent, then to its upper parent, and so on, all the way up to the document.
 
 
-For example:
+<li>For example:
 If we click a button inside a div, the click event is handled by the button.
 
-
 The same event then "bubbles up" and is also available to be handled by the div.
-
 
 It continues to bubble up to the body, then html, then document.
 
