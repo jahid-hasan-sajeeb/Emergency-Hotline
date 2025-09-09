@@ -1,7 +1,7 @@
 <h3>The difference between getElementById, getElementsByClassName, and querySelector/querySelectorAll</h3>
 
 
-getElementById: It is used to find an element by using its ID. It is very fast because IDs are unique.
+<li>getElementById: It is used to find an element by using its ID. It is very fast because IDs are unique.<li>
 
 
 getElementsByClassName: It is used to find all the elements that have the specified class. It returns a collection of elements, not just one like ID.
